@@ -13,6 +13,11 @@
 		95404B2B246AC05F0071C24D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95404B2A246AC05F0071C24D /* Assets.xcassets */; };
 		95404B2E246AC05F0071C24D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95404B2D246AC05F0071C24D /* Preview Assets.xcassets */; };
 		95404B31246AC05F0071C24D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95404B2F246AC05F0071C24D /* LaunchScreen.storyboard */; };
+		95404B39246AC1090071C24D /* wine.json in Resources */ = {isa = PBXBuildFile; fileRef = 95404B38246AC1090071C24D /* wine.json */; };
+		95404B3B246AC1E80071C24D /* Wines.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404B3A246AC1E80071C24D /* Wines.swift */; };
+		95404B3D246AC2330071C24D /* WineJSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404B3C246AC2330071C24D /* WineJSONDecoder.swift */; };
+		95404B3F246AC41A0071C24D /* WineRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404B3E246AC41A0071C24D /* WineRow.swift */; };
+		95404B41246AC7DD0071C24D /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95404B40246AC7DD0071C24D /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		95404B2D246AC05F0071C24D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		95404B30246AC05F0071C24D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95404B32246AC05F0071C24D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95404B38246AC1090071C24D /* wine.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = wine.json; sourceTree = "<group>"; };
+		95404B3A246AC1E80071C24D /* Wines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wines.swift; sourceTree = "<group>"; };
+		95404B3C246AC2330071C24D /* WineJSONDecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineJSONDecoder.swift; sourceTree = "<group>"; };
+		95404B3E246AC41A0071C24D /* WineRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WineRow.swift; sourceTree = "<group>"; };
+		95404B40246AC7DD0071C24D /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				95404B2F246AC05F0071C24D /* LaunchScreen.storyboard */,
 				95404B32246AC05F0071C24D /* Info.plist */,
 				95404B2C246AC05F0071C24D /* Preview Content */,
+				95404B38246AC1090071C24D /* wine.json */,
+				95404B3A246AC1E80071C24D /* Wines.swift */,
+				95404B3C246AC2330071C24D /* WineJSONDecoder.swift */,
+				95404B3E246AC41A0071C24D /* WineRow.swift */,
+				95404B40246AC7DD0071C24D /* SearchBarView.swift */,
 			);
 			path = SearchBar;
 			sourceTree = "<group>";
@@ -133,6 +148,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95404B39246AC1090071C24D /* wine.json in Resources */,
 				95404B31246AC05F0071C24D /* LaunchScreen.storyboard in Resources */,
 				95404B2E246AC05F0071C24D /* Preview Assets.xcassets in Resources */,
 				95404B2B246AC05F0071C24D /* Assets.xcassets in Resources */,
@@ -146,9 +162,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95404B3B246AC1E80071C24D /* Wines.swift in Sources */,
 				95404B25246AC05E0071C24D /* AppDelegate.swift in Sources */,
 				95404B27246AC05E0071C24D /* SceneDelegate.swift in Sources */,
+				95404B41246AC7DD0071C24D /* SearchBarView.swift in Sources */,
+				95404B3D246AC2330071C24D /* WineJSONDecoder.swift in Sources */,
 				95404B29246AC05E0071C24D /* ContentView.swift in Sources */,
+				95404B3F246AC41A0071C24D /* WineRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

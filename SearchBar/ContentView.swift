@@ -9,8 +9,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var wines = WineJSONDecoder.decodeWineJSON()
+    @State private var searchBarText: String = String()
+    
     var body: some View {
-        Text("Hello, World!")
+        VStack {
+            SearchBarView(searchBarText: $searchBarText)
+            List {
+                ForEach(wines.filter({searchBarText.isEmpty ? true : $0.name.contains(searchBarText)}), id: \.id) { wine in
+                    WineRow(wine: wine)
+                }
+            }
+        }
     }
 }
 
